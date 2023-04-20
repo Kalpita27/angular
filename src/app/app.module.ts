@@ -3,18 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DemoComponent } from './demo/demo.component';
-import { BatchlistComponent } from './batchlist/batchlist.component';
-import { BatchdetailsComponent } from './batchdetails/batchdetails.component';
+import { FormsModule } from '@angular/forms';
+import { TemplateComponent } from './template/template.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DemoComponent,
-    BatchlistComponent,
-    BatchdetailsComponent
+    TemplateComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
