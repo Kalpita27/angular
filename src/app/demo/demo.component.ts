@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./demo.component.css']
 })
 export class DemoComponent {
-  public BatchName : string = "";
-center: any;
+  public Data : string = ""
 }
