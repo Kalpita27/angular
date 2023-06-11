@@ -1,2 +1,2 @@
 # angular
-new angular projects
+new MEAN projects
